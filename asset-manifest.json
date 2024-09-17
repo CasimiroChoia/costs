@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/casimirochoia.github.io/costs/static/css/main.81dac799.css",
+    "main.js": "/casimirochoia.github.io/costs/static/js/main.8626ea7c.js",
+    "static/js/453.7f45aa79.chunk.js": "/casimirochoia.github.io/costs/static/js/453.7f45aa79.chunk.js",
+    "static/media/5.ttf": "/casimirochoia.github.io/costs/static/media/5.e755ca4768e217d45f06.ttf",
+    "static/media/1.otf": "/casimirochoia.github.io/costs/static/media/1.5c70ab156cc02d25e04a.otf",
+    "static/media/3.ttf": "/casimirochoia.github.io/costs/static/media/3.cf3ceff9e3555593a040.ttf",
+    "static/media/2.ttf": "/casimirochoia.github.io/costs/static/media/2.224e50043a38c7733342.ttf",
+    "static/media/1.ttf": "/casimirochoia.github.io/costs/static/media/1.10ff39193fa401abdf71.ttf",
+    "static/media/favicon.png": "/casimirochoia.github.io/costs/static/media/favicon.a4b35de43b19c2a3c924.png",
+    "static/media/4.ttf": "/casimirochoia.github.io/costs/static/media/4.eaf2443d0a0fb67c521d.ttf",
+    "index.html": "/casimirochoia.github.io/costs/index.html",
+    "main.81dac799.css.map": "/casimirochoia.github.io/costs/static/css/main.81dac799.css.map",
+    "main.8626ea7c.js.map": "/casimirochoia.github.io/costs/static/js/main.8626ea7c.js.map",
+    "453.7f45aa79.chunk.js.map": "/casimirochoia.github.io/costs/static/js/453.7f45aa79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81dac799.css",
+    "static/js/main.8626ea7c.js"
+  ]
+}
