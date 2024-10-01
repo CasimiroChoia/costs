@@ -1,0 +1,128 @@
+@keyframes girar {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.carregar {
+    --border-width: 25px;
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    margin: auto;
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 50%;
+    border: var(--border-width) solid lightblue;
+    background-color: transparent;
+    border-top: var(--border-width) solid blue;
+    animation: girar .5s linear 0s infinite;
+}
+
+/* CIRCLE */
+.carregar1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #766DF4;
+    -webkit-mask:
+        repeating-conic-gradient(#0000 0deg, #000 1deg 70deg, #0000 71deg 90deg),
+        radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 calc(100% - 8px));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation: s5 1s infinite;
+
+    margin: auto;
+    width: 20vmin;
+    height: 20vmin;
+}
+
+@keyframes s5 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+
+/* SHURIKEN  */
+.carregar2 {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    color: #766DF4;
+    background: radial-gradient(circle 16px, currentColor 94%, #0000);
+    -webkit-mask: radial-gradient(circle 5px, #0000 90%, #000);
+    animation: sh10 3s infinite linear;
+    
+        margin: auto;
+        width: 20vmin;
+        height: 20vmin;
+}
+
+.carregar2:before,
+.carregar2:after {
+    content: "";
+    grid-area: 1/1;
+    background:
+        radial-gradient(farthest-side at bottom right, currentColor 94%, #0000) top right,
+        radial-gradient(farthest-side at top left, currentColor 94%, #0000) bottom left;
+    background-size: 40% 45%;
+    background-repeat: no-repeat;
+    -webkit-mask:
+        radial-gradient(60% 100% at bottom right, #0000 94%, #000) top right,
+        radial-gradient(60% 100% at top left, #0000 94%, #000) bottom left;
+    -webkit-mask-size: 40% 45%;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.carregar2:after {
+    transform: rotate(90deg);
+}
+
+@keyframes sh10 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
+
+/* TELEFONE CARREGANDO */
+.carregar3 {
+    width: 80px;
+    height: 40px;
+    /* border: 2px solid #766DF4; */
+    border: 2px solid #000000;
+    border-right-color: transparent;
+    padding: 3px;
+    background:
+        repeating-linear-gradient(90deg, rgb(0,0,0) 0 10px, #0000 0 15px) left/0% 100% no-repeat content-box content-box;
+    position: relative;
+    animation: p5 4s infinite steps(6);
+
+    margin: auto;
+    /* width: 20vmin;
+    height: 20vmin; */
+}
+
+.carregar3::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: 100%;
+    width: 10px;
+    background:
+        linear-gradient(#0000 calc(50% - 7px), rgb(0,0,0) 0 calc(50% - 5px),
+            #0000 0 calc(50% + 5px), rgb(0,0,0) 0 calc(50% + 7px), #0000 0) left /100% 100%,
+        linear-gradient(rgb(0,0,0) calc(50% - 5px), #0000 0 calc(50% + 5px), rgb(0,0,0) 0) left /2px 100%,
+        linear-gradient(#0000 calc(50% - 5px), rgb(0,0,0) 0 calc(50% + 5px), #0000 0) right/2px 100%;
+    background-repeat: no-repeat;
+}
+
+@keyframes p5 {
+    100% {
+        background-size: 120% 100%
+    }
+}

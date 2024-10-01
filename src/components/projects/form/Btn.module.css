@@ -1,0 +1,18 @@
+.btn {
+    margin-top: 1em;
+    padding: .5em 0;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(47, 52, 52);
+    transition: all .5s;
+    font-weight: bolder;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover {
+        color: #000;
+        background-color: #ffbb33;
+    }
+}

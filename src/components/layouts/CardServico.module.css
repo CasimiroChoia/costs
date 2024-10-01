@@ -1,0 +1,92 @@
+.cardServico {
+    /* display: inline-block; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin: 2.5px;
+    padding: 5px;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 150px;
+    border-radius: 10px;
+    background-color: rgba(80, 80, 80, 0.302);
+
+    &> h3 {
+        font-weight: bolder;
+    }
+
+    &>p{
+        text-align: center;
+    }
+    
+    &>*{
+        margin-block: .3em;
+    }
+}
+
+.cost {
+    color: yellow;
+    font-weight: bolder;
+
+    &::after {
+        content: ' Kz';
+        color: #000;
+        font-weight: normal;
+    }
+}
+
+.actions{
+    margin-top: 1.5em;
+    display: flex;
+    align-self: flex-end;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1 0 200;
+    width: 100%;
+    
+    & * {
+        cursor: pointer;
+    }
+
+    & > button{
+        border: none;
+        border-radius: 5px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+        margin-inline: 3px;
+        padding: 4px 0;
+        transition: background-color .5s;
+        filter: grayscale(1);
+        
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        
+    }
+}
+
+.cardNaoFeito {
+    background-color: rgba(98, 83, 14, 1);
+    &>h3{
+        text-decoration: line-through;
+        letter-spacing: -2px;
+        color: red;
+    }    
+    &>.cost{
+        color: #000;
+        background-color: black;
+        transition: background-color .5s;
+        border-radius: 5px;
+        font-weight: bolder;
+        cursor: none;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }    
+    &>*{}    
+    &>*{}    
+}

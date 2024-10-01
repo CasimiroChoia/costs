@@ -1,0 +1,110 @@
+@keyframes girar {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes aparecerErro {
+  50% {
+    opacity: 0;
+  }
+}
+@font-face {
+  font-family: 'otf1';
+  src: url(./fonts/1.otf);
+}
+@font-face {
+  font-family: 'ttf1';
+  src: url(./fonts/1.ttf);
+}
+@font-face {
+  font-family: 'ttf2';
+  src: url(./fonts/2.ttf);
+}
+@font-face {
+  font-family: 'ttf3';
+  src: url(./fonts/3.ttf);
+}
+@font-face {
+  font-family: 'ttf4';
+  src: url(./fonts/4.ttf);
+}
+@font-face {
+  font-family: 'ttf5';
+  src: url(./fonts/5.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  cursor: default;
+  box-sizing: border-box;
+  /* border: 3px solid #000; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*::first-letter {
+  text-transform: uppercase;
+  
+}
+*::selection::first-letter{
+    background-color: grey;
+  }
+.logo60 {
+  width: 60px;
+  height: 60px;
+}
+
+.smsError {
+  --font-size: 17px;
+  width: 100%;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  margin-block: 5vmin;
+  font-family: monospace;
+  text-transform: uppercase;
+  transition: all .5s;
+  font-size: var(--font-size);
+  animation: aparecerErro 1s ease-in-out 0s infinite normal;
+
+  /* -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 0, 0); */
+
+  &,
+  & * {
+    cursor: none;
+  }
+}
+
+.hamburguer {
+  border-top: 3px solid #fff;
+  height: 25px;
+  width: 50px;
+  cursor: pointer;
+  z-index: 999;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    border-top: 3px solid #fff;
+    width: 50px;
+    margin-top: 10px;
+
+  }
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+*::selection{
+  background-color: grey;
+  border-radius: 5px;
+}

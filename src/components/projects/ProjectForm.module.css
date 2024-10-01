@@ -1,0 +1,23 @@
+.form {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.form * {
+    font-size: 14px;
+}
+
+
+
+.form *::first-letter {
+    text-transform: uppercase;
+}
+
+
+.btnContainer {
+    display:flex;
+    column-gap: 5px;
+    flex-flow:  row nowrap;
+    justify-content: space-between;
+}
