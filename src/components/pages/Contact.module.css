@@ -1,0 +1,61 @@
+@keyframes appear {
+    0% {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+    100% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+}
+
+.img {
+    height: 60dvh;
+    border-radius: 10px;
+    animation: appear 1.5s ease-in-out 0 1;
+}
+
+.section {
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+    gap:1em;
+}
+
+.rede > img {
+    width: 44px;
+    cursor: pointer;
+}
+
+.rede {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    gap:1em;
+    margin-bottom: 20px;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    border: 3px solid #000;
+    /* border-radius: 10px; */
+}
+
+.rede span {
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.divSocial {
+    display: flex ;
+    gap: 1em;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}

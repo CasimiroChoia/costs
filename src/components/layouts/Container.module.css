@@ -1,0 +1,43 @@
+
+.container {
+    /* min-width: fit-content; */
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: column;
+    /* background-color: #b4b4b4; */
+
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    min-height: 85vh;
+}
+
+main.min-height {
+    min-height: 75vh;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    /* width: 5px; */
+    transition: all .5s;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    
+    &:hover {
+        background-color: rgba(0, 0, 0, .3);
+    }
+}

@@ -1,0 +1,20 @@
+.div {
+    margin-bottom: .6em;
+    width: 100%;
+    
+    & input {
+        outline: 0;
+        width: 100%;
+        border: none;
+        padding: 5px 0;
+        margin-top: .3em;
+        cursor: text;
+        text-align: center;
+        border-radius: 5px;
+        font-family: inherit;
+
+        &::placeholder {
+            text-transform: capitalize;
+        }
+    }
+}

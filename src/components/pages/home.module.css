@@ -1,0 +1,47 @@
+@keyframes appear {
+  from {
+    transform: translateY(40px) rotateX(90deg) scale(.8);
+    opacity: 0;
+  }
+}
+
+.titulo {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  text-transform: none;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.name {
+  background-color: #000;
+  color: yellow;
+  padding: 0 10px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  font-family: "font2";
+}
+
+.link {
+  margin: auto;
+  padding: 10px;
+  border-style: none;
+  color: #000;
+  cursor: pointer;
+  margin-block: 1em;
+  width: fit-content;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: rgba(48, 68, 75, 0.8);
+  animation: appear 1s var(--delay) ease-in-out  backwards;
+}
+
+.ImgDestaque {
+  width: 60vmin;
+  margin: auto;
+  
+  animation: appear 1s var(--delay) ease-in-out  backwards;
+  
+}

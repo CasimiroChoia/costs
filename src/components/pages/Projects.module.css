@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.newProject {
+  color: wheat;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(47, 52, 52);
+}
+
+.containerCard {
+  width: 90%;
+  margin: 1.5em auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+
+  & > * {
+    text-transform: capitalize;
+  }
+}
+
+.containerBtn {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 30dvh;
+}
+
+.containerBtn > * {
+  padding-block: 10px;
+}
+
+.modal {
+  min-width: 200px;
+  width: 80%;
+  margin: auto;
+  height: 80dvh;
+  background-color: aquamarine;
+  border-radius: 10px;
+  z-index: 9;
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.877);
+  }
+}

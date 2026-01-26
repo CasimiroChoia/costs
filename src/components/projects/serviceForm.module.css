@@ -1,0 +1,50 @@
+.formu {
+    /* background-color: rgba(102, 102, 102, 0.5); */
+    background-color: rgba(102, 102, 102, 0.1);
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 20px 10px;
+    transition: all 1s;
+}
+
+.inputBox {
+    display: flex;
+    flex-flow: column;
+
+    &>input:focus,
+    &>textarea:focus {
+        outline: none;
+    }
+
+    &>input,
+    &>textarea {
+        border-radius: 5px;
+        padding: 10px;
+        min-height: 30px;
+        border: 0px solid #000;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+        &:invalid {
+            background-color:rgba(255, 255, 255, .5);
+            box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+        }
+        
+        &:valid {
+            background-color: white;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+        }
+    }
+
+    &>*:not(input, textarea, label) {
+        padding: 5px;
+        margin-bottom: 3px;
+    }
+}
+
+
+.btnContainer {
+    /* background-color: gold; */
+}
