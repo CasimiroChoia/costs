@@ -4,77 +4,54 @@
       "id": "8a40",
       "projectName": "ir Para a Europa",
       "orcamento": 2341,
-      "choicedCategory": {
-        "id": 2,
-        "name": "desenvolvimento"
-      },
+      "choicedCategory": { "id": 2, "name": "desenvolvimento" },
       "cost": 1,
-      "services": [
-        null
-      ]
-    },
-    {
-      "id": "c70d",
-      "projectName": "Be a Programmer FullStack",
-      "orcamento": 1000,
-      "choicedCategory": {
-        "id": 3,
-        "name": "planeamento"
-      },
-      "cost": 0,
-      "services": [
-        null,
-        null,
-        null,
-        {
-          "serviceName": "create my own portifolio",
-          "serviceDescription": "web site onde eu depositarei todos os meus projectos feitos.",
-          "serviceCost": 0,
-          "feito": true
-        }
-      ]
+      "services": []
     },
     {
       "id": "4d04",
       "projectName": "My Projects",
       "orcamento": 700,
-      "choicedCategory": {
-        "id": 1,
-        "name": "infra"
-      },
+      "choicedCategory": { "id": 1, "name": "infra" },
       "cost": 300,
       "services": [
         {
+          "id":"sd28",
           "serviceName": "costs",
           "serviceDescription": "app de gerenciamento de projectos",
           "serviceCost": 0,
           "feito": false
         },
         {
+          "id":"sd22",
           "serviceName": "quiz game",
           "serviceDescription": "jogo de perguntas onde tu respondes questões de diversas categorias tais como: Programação ou animes...",
           "serviceCost": 0,
           "feito": false
         },
         {
+          "id":"sd31",
           "serviceName": "Lista de tarefas",
           "serviceDescription": "lista de tarefas onde a partir de lá podemos fazer várias requisições http à uma API REST.",
           "serviceCost": 0,
           "feito": false
         },
         {
+          "id":"sd312",
           "serviceName": "criar o vendas express com react",
           "serviceDescription": "este é um projeto de autoria própria que terá várias funcionalidades, interações com API REST, react-router-dom integrado, sistema de login, se for possível vou integrar o MongoDB, etc.",
           "serviceCost": 0,
           "feito": true
         },
         {
+          "id":"s762",
           "serviceName": "crair um protifolio",
           "serviceDescription": "Web Site Onde Eu Depositarei Todos Os Meus Projectos Feitos.",
           "serviceCost": 0,
           "feito": true
         },
         {
+          "id":"376245",
           "serviceName": "instalar globalmente o pacote \"react-router-dom\"",
           "serviceDescription": "pacote do react responsável pelas rotas do projecto📋",
           "serviceCost": "300",
@@ -86,15 +63,75 @@
       "id": "f031",
       "projectName": "app vendas express com react",
       "orcamento": 1000,
-      "choicedCategory": {
-        "id": 2,
-        "name": "desenvolvimento"
-      },
+      "choicedCategory": { "id": 2, "name": "desenvolvimento" },
       "cost": 0,
       "services": [
         {
+          "id":"3f76245",
           "serviceName": "criar a tela de login e de cadastro",
           "serviceDescription": "tela principal da app",
+          "serviceCost": 0,
+          "feito": true
+        }
+      ]
+    },
+    {
+      "id": "a0e6",
+      "projectName": "TCC",
+      "orcamento": "10000",
+      "choicedCategory": { "id": 4, "name": "design" },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8b71",
+      "projectName": "2026 Goals",
+      "orcamento": "10000",
+      "choicedCategory": { "id": 6, "name": "Futuro" },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "0.6998342349042167",
+      "projectName": "aaaaa",
+      "orcamento": 3244,
+      "choicedCategory": { "id": 6, "name": "Futuro" },
+      "cost": 0,
+      "services": [
+        {
+          "id":"3f5",
+          "serviceName": "aaaaaaa",
+          "serviceDescription": "aaaad",
+          "serviceCost": 0,
+          "feito": true
+        },
+        {
+          "id":"3455",
+          "serviceName": "teste",
+          "serviceDescription": "qww",
+          "serviceCost": 0,
+          "feito": true
+        },
+        {
+          "id":"345521",
+          "serviceName": "teste",
+          "serviceDescription": "qww",
+          "serviceCost": 0,
+          "feito": true
+        }
+      ]
+    },
+    {
+      "id": "bh19f9dh",
+      "projectName": "abcd",
+      "orcamento": 1000,
+      "choicedCategory": { "id": 4, "name": "design" },
+      "cost": 0,
+      "services": [
+        {
+          "id":"345jh5",
+          "serviceName": "aaaa",
+          "serviceDescription": "aa",
           "serviceCost": 0,
           "feito": true
         }
